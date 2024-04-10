@@ -18,7 +18,7 @@ html {
 .stars-container {
     margin-top: -8px;
     margin-left: -12px;
-    width: 105.8%;
+    width: 102%;
     height: 100%;
     background: radial-gradient(ellipse at bottom, #05477f 0%, #000000 100%);
     overflow: hidden;
