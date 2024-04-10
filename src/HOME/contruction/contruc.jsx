@@ -4,13 +4,13 @@ const Contruc = ({contruc},ref) => {
     return (
         <div>
             {/* <!-- about us --> */}
-            <section className="aboutUs ms-5">
+            <section className="aboutUs">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5" data-aos="fade-up" data-aos-duration={1000}>
                             <img src="./img/contruction.jpg" className="img-fluid img-thumbnail mt-5" alt='' style={{borderRadius:'25px'}} />
                         </div>
-                        <div className="col-lg-7 ps-5" data-aos="fade-up" data-aos-duration={1500}>
+                        <div className="col-lg-7 ps-4" data-aos="fade-up" data-aos-duration={1500}>
                             <p style={{ color: '#64ccc5', marginTop: '10rem', fontSize: 50 }} ref={ref}>
                                 {contruc}
                             </p>

@@ -12,7 +12,8 @@ const Contact = () => {
         e.preventDefault();
         
         if (check !== ''){
-            document.getElementById('check_err').innerHTML = 'Email đã được gửi đi!'
+            document.getElementById('check_err2').innerHTML = 'Email đã được gửi đi!'
+            document.getElementById('check_err').innerHTML = ''
             e.preventDefault();
             emailjs
             .sendForm('service_j1mhyuc', 'template_ghg7094', form.current, {
@@ -28,6 +29,7 @@ const Contact = () => {
             );
         }else{
             document.getElementById('check_err').innerHTML = 'Vui lòng nhập một vài kí tự !'
+            document.getElementById('check_err2').innerHTML = ''
         }
         
     }
@@ -63,6 +65,7 @@ const Contact = () => {
                         <div className="col-lg-4">
                             <h5 style={{ color: 'cyan' }}>Subscribe</h5>
                             <div className='text-center' id='check_err' style={{ color: 'red', margin: '-1rem 0px' }}></div>
+                            <div className='text-center' id='check_err2' style={{ color: 'green', margin: '-1rem 0px' }}></div>
                             <form ref={form} onSubmit={sendEmail}>
                                 <div className="search">
 

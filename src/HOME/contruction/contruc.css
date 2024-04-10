@@ -48,3 +48,9 @@
   .btn-hover:focus {
     outline: none;
   }
+  /* @media (max-width:400px) {
+    .aboutUs{
+      margin-left: -100px;
+      background-color: red;
+    }
+  } */

@@ -7,7 +7,7 @@
     text-decoration: none;
     color: white;
     background-color: black;
-    padding: 0.3rem 1rem;
+    padding: 0.4rem 1.2rem;
     margin: -12px 0;
     border-radius: 20px;
   }
@@ -23,7 +23,7 @@
     background-color: none;
     border: none;
     padding-right: 20px;
-    width: 18rem;
+    width: 14.5rem;
   }
   .search input::placeholder{
     color: rgb(99, 99, 99);
