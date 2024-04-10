@@ -3,14 +3,14 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <p className='text-center mt-5' style={{ fontSize: 'clamp(20px,9vw,90px)' }}>Giải trí</p>
+            {/* <p className='text-center mt-5' style={{ fontSize: 'clamp(20px,9vw,90px)' }}>Giải trí</p>
             <div className='mt-2 pb-3 d-flex border-bottom border-dark-subtle' style={{ justifyContent: 'space-evenly' }}>
                 <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500" className='text-center mt-5' style={{ fontSize: 'clamp(15px,7vw,70px)' }}>Game</p>
                 <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500" className='text-center mt-5' style={{ fontSize: 'clamp(15px,7vw,70px)' }}>Đọc sách</p>
                 <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500" className='text-center mt-5' style={{ fontSize: 'clamp(15px,7vw,70px)' }}>Âm Nhạc</p>
                 <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500" className='text-center mt-5' style={{ fontSize: 'clamp(15px,7vw,70px)' }}>Code</p>
-            </div>
-            <div className='mt-5'>
+            </div> */}
+            <div className='' style={{marginTop:'175px'}}>
                 <p className='text-center mt-5' style={{ fontSize: 'clamp(18px,8vw,85px)' }}>Về Chúng Tớ</p>
                 <div className='w-50 text-center' style={{ position: 'absolute', left: '50%', marginLeft: '-24%' }}>
                    <div data-aos="flip-left" data-aos-duration="1000">

@@ -1,8 +1,9 @@
-import React from 'react';
+
+import React, { forwardRef } from 'react';
 import './background.css';
 import './member.css';
 import Member from './member';
-const Card = () => {
+const Card = ({text},ref) => {
     return (
         <div>
             <section className="stars-container">
@@ -14,7 +15,7 @@ const Card = () => {
                         <div className="col-sm-6 col-xs-12" />
                     </div>
                 </div>
-            <div className='text-center text-light family' style={{marginTop:'100px',fontSize:'80px',marginBottom:'80px'}}><p>Gia đình của chúng tớ</p></div>
+            <div className='text-center text-light family' style={{marginTop:'90px',fontSize:'80px'}}><p ref={ref}>{text}</p></div>
             <div className='col'>
                 <Member/>
             </div>
@@ -23,4 +24,4 @@ const Card = () => {
     );
 }
 
-export default Card;
+export default forwardRef(Card);

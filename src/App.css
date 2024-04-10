@@ -1,3 +1,129 @@
+
+.link-test::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #f00;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.link-test:hover::after{
+    transform: scaleX(1);
+}
+.link-test_2::after{
+    height: 3px;
+    background-color: red;
+    width: 50px;
+    top: 45px;
+    left:10px;
+    position: absolute;
+    content: "";
+    transform: scaleX(0);
+    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.link-test_2:hover::after{
+    transform: scaleX(1);
+}
+.link-test_3::after{
+    height: 3px;
+    background-color: red;
+    width: 60px;
+    top: 45px;
+    right:85px;
+    position: absolute;
+    content: "";
+    transform: scaleX(0);
+    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.link-test_3:hover::after{
+    transform: scaleX(1);
+}
+.link-test_4::after{
+    height: 3px;
+    background-color: red;
+    width: 60px;
+    top: 45px;
+    right:31rem;
+    position: absolute;
+    content: "";
+    transform: scaleX(0);
+    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.link-test_4:hover::after{
+    transform: scaleX(1);
+}
+.link-test_5::after{
+    height: 3px;
+    background-color: red;
+    width: 67px;
+    top: 45px;
+    right:24.5rem;
+    position: absolute;
+    content: "";
+    transform: scaleX(0);
+    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.link-test_5:hover::after{
+    transform: scaleX(1);
+}
+.link-test_6::after{
+    height: 3px;
+    background-color: red;
+    width: 68px;
+    top: 45px;
+    right:18rem;
+    position: absolute;
+    content: "";
+    transform: scaleX(0);
+    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.link-test_6:hover::after{
+    transform: scaleX(1);
+}
+.link-test_7::after{
+    height: 3px;
+    background-color: red;
+    width: 80px;
+    top: 45px;
+    right:10.7rem;
+    position: absolute;
+    content: "";
+    transform: scaleX(0);
+    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.link-test_7:hover::after{
+    transform: scaleX(1);
+}
+.dropdown-menu > div > li > button:hover{
+    background-color: rgb(34, 240, 237);
+    border-radius: 50px;
+    width: 120px;
+}
+.dropdown-menu > div > li >button {
+    padding: 7px;
+    margin-left:20%;
+} 
+.dropdown-menu{
+    animation: showLocate 0.4s ease-in-out;
+
+}
+@keyframes showLocate {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        transform: translateY(0px); 
+        opacity: 1;
+    }   
+}  
+.dropdown-menu > li > button:active{
+    background-color: rgb(90, 174, 174);
+}
+
 /* RESPONSIVE ALL APP */
 @media (max-width: 1400px) {
     /* Main content responsive */
@@ -77,4 +203,10 @@
     .family >p{
         font-size: 35px;
     }
+    .logo{
+        display: none;
+    }
+    .logo_nhaque{
+        margin-top: 18px;
+}
 }
