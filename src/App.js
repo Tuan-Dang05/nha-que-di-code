@@ -49,7 +49,9 @@ function App() {
   const anhtuan = () => {
     window.open("https://tuan-dang05.github.io/tuan_dang_profile/", "_blank");
   };
-
+  const ducduy = () => {
+    window.open("https://dduy07037.github.io/DuyPortfolio/", "_blank");
+  };
 
   return (
 
@@ -81,7 +83,7 @@ function App() {
                         <ul className="dropdown-menu">
                           <div className="flex-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <li><button className="nav-link fs-5" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" onClick={anhtuan}>Anh Tuấn</button></li>
-                            <li><button className="nav-link fs-5" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" onClick={() => this.ducduy()} >Đức Duy</button></li>
+                            <li><button className="nav-link fs-5" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" onClick={ducduy} >Đức Duy</button></li>
                             <li><button className="nav-link fs-5" id="v-pills-duc-tab" data-bs-toggle="pill" data-bs-target="#v-pills-duc" type="button" role="tab" aria-controls="v-pills-duc" aria-selected="false" onClick={() => this.quangduc()}>Quang Đức</button></li>
                             <li><button className="nav-link fs-5" id="v-pills-dat-tab" data-bs-toggle="pill" data-bs-target="#v-pills-dat" type="button" role="tab" aria-controls="v-pills-dat" aria-selected="false" onClick={() => this.xuandat()}>Xuân Đạt</button></li>
                           </div>

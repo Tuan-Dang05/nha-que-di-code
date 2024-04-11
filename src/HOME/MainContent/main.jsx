@@ -9,8 +9,8 @@ class Main extends Component {
     render() {
         return (
             <div>
-                <div className='video' style={{ marginLeft: '-12px' }}>
-                <video className="object-fit-cover"  width={'101.2%'} muted autoPlay loop>
+                <div className='video' style={{ marginLeft: '0px' }}>
+                <video className="object-fit-cover"  width={'100%'} muted autoPlay loop>
                     <source src='./video/bg2.mp4' type='video/mp4' />
                 </video>
                 <div className='nha_que text-center text-light' style={{position:'absolute',top:'40rem',left:'50%',transform:'translate(-50%,-20rem)'}}><p>NHÀ QUÊ ĐI CODE</p></div>

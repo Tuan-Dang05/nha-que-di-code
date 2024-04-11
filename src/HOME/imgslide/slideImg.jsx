@@ -26,8 +26,8 @@ const SlideImg = ({ confidence }, ref) => {
         className="testimonial-container"
         style={{
           backgroundColor: "#001524",
-          width: "102%",
-          marginLeft: "-12px",
+          width: "100%",
+          marginLeft: "0px",
         }}
       >
         <h2 className="heading">
