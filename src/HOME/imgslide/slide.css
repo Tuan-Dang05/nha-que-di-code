@@ -1,8 +1,8 @@
 :root{
-    --bg-color: #001524;
+    --bg-color: white;
     --text-color: white;
-    --main-color: #16FF00;
-    --white-color : #fdfdfd;
+    --main-color: black;
+    --white-color : black;
     --shadow-color: rgba(0, 0, 0, .2);
 }
 .testimonial-container{
@@ -129,5 +129,19 @@ span{
     .testimonial-container .testimonial-wrapper{
         position: relative;
         width: 180%;
+    }
+}
+
+@media (max-width: 300px) {
+    .testimonial-container{
+        padding: 4rem;    
+    }
+    .testimonial-slide img{
+        width: 8rem;
+        height: 8rem;
+    }
+    .testimonial-container .testimonial-wrapper{
+        position: relative;
+        width: 200%;
     }
 }

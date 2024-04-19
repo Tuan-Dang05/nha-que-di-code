@@ -18,8 +18,7 @@ const Contruc = ({contruc},ref) => {
                                 Sứ mệnh cốt lõi đằng sau công việc chúng tôi!
                             </h1>
                             <p style={{ color: 'black', width: '80%' }}>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit metus ut
-                                tortor purus tincidunt sed lectus ut eros, turpis tincidunt id.
+                            Trở thành nhà cung cấp dịch vụ du lịch uy tín, chất lượng nhất Việt Nam với giá cả cạnh tranh.
                             </p>
                             <div className="angka" style={{ display: 'flex', gap: '3rem' }}>
                                 <div className="angka1">

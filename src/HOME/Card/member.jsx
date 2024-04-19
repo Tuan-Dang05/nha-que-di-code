@@ -21,7 +21,7 @@ const Member = () => {
                     <div className="wrapper">
                         <img src="./img/card/Tuan_dang.jpg" alt="" className="cover-image" />
                     </div>
-                    <p className="title">Đặng Anh Tuấn</p>
+                    <p className="title fs-5">Đặng Anh Tuấn</p>
                     <img style={{ width: '200px' }} src="./img/card/tuan.png" alt="" className="character" />
                 </div>
                 {/* Quang Duc */}
@@ -29,7 +29,7 @@ const Member = () => {
                     <div className="wrapper">
                         <img src="./img/card/quang_duc.jpg" alt="" className="cover-image" />
                     </div>
-                    <p className="title">Lê Quang Đức</p>
+                    <p className="title fs-4">Lê Quang Đức</p>
                     <img style={{ width: '480px', display: 'inline-block', left: '-190px' }} src="./img/card/duc.png" alt="" className="character" />
                 </div>
                 {/* DUC DUY */}
@@ -37,7 +37,7 @@ const Member = () => {
                     <div className="wrapper">
                         <img src="./img/card/duc_duy.jpg" alt="" className="cover-image" />
                     </div>
-                    <p className="title">Đinh Đức Duy</p>
+                    <p className="title fs-4">Đinh Đức Duy</p>
                     <img style={{ width: '370px', display: 'inline-block', left: '-100px' }} src="./img/card/duy.png" alt="" className="character" />
                 </div>
 

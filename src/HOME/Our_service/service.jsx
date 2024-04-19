@@ -26,10 +26,9 @@ const Service = ({ service }, ref) => {
           <div className="kartu-icon">
             <i className="fa-regular fa-pen-to-square icon-dalam" />
           </div>
-          <p className="kartu-judul">Content</p>
+          <p className="kartu-judul">Nội dung</p>
           <p className="kartu-des">
-            Our team creates engaging and shareable content that resonates
-            with your audience, drives organic traffic
+          "Content hay giống như người bạn đồng hành đáng tin cậy, giúp bạn dẫn lối khách hàng đến với thương hiệu. #contentstrategy"
           </p>
         </div>
       </div>
@@ -38,10 +37,9 @@ const Service = ({ service }, ref) => {
           <div className="kartu-icon">
             <i className="fa-solid fa-pen-nib icon-dalam" />
           </div>
-          <p className="kartu-judul">Graphic Design</p>
+          <p className="kartu-judul">Thiết kế đồ hoạ</p>
           <p className="kartu-des">
-            Unlock the power of visual storytelling with our expert graphic
-            design services tailored to elevate your brand and captivate.
+          "Thiết kế đồ họa: giải quyết vấn đề bằng cách khiến mọi thứ trở nên đẹp mắt."
           </p>
         </div>
       </div>
@@ -52,8 +50,8 @@ const Service = ({ service }, ref) => {
           </div>
           <p className="kartu-judul">Boostrap 5</p>
           <p className="kartu-des">
-            Elevate your brand's online presence with our data-driven
-            digital marketing strategies. From SEO and content marketing
+          Bootstrap 5: Nâng tầm thiết kế web của bạn với các thành phần và giao diện hiện đại.<br/>
+          #Bootstrap5 #CSS #WebDesign #Responsive #Frontend #Development
           </p>
         </div>
       </div>
@@ -64,7 +62,7 @@ const Service = ({ service }, ref) => {
           <div className="kartu-icon">
             <i className="fa-solid fa-palette icon-dalam" />
           </div>
-          <p className="kartu-judul">Web Design</p>
+          <p className="kartu-judul">Thiết kế website</p>
           <p className="kartu-des">
             We specialize in creating visually stunning, user-friendly
             websites that align with your brand identity and deliver an
@@ -77,10 +75,9 @@ const Service = ({ service }, ref) => {
           <div className="kartu-icon">
             <i className="fa-solid fa-users-line icon-dalam" />
           </div>
-          <p className="kartu-judul">IT Team</p>
+          <p className="kartu-judul">Đội ngũ IT</p>
           <p className="kartu-des">
-            IT consulting, or information technology consulting, refers to
-            the practice of providing advisory and implementation services
+           Tất cả các thành viên trong team sẽ cố gắng phát triển website hướng tới các dịch vụ và nhu cầu của người dùng. <br/> @Tuan_Dang
           </p>
         </div>
       </div>
@@ -91,9 +88,7 @@ const Service = ({ service }, ref) => {
           </div>
           <p className="kartu-judul">AOS animation</p>
           <p className="kartu-des">
-            It involves creating a unique and recognizable identity that
-            sets the brand apart from competitors and resonates with the
-            target audience.
+            Sử dụng thư viện AOS giúp cho website trở nên sinh động và mượt mà hơn.
           </p>
         </div>
       </div>

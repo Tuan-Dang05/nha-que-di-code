@@ -37,4 +37,98 @@
     box-shadow: none;
     transform: translateY(4px);
   }
-  
+  @media (max-width: 1400px) {
+    .video > img{
+      object-fit: cover;
+      height: 60rem;
+      background-size: cover; /* Ảnh bao phủ toàn bộ background */
+      background-position: center; /* Ảnh ở vị trí trung tâm */
+    }
+    .nha_que,.hoi_anh_em,.comic-button{
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 992px) {
+    .comic-button{
+      margin-top: 0%;
+    }
+  }
+  @media (max-width: 821px) {
+    .video > img{
+      object-fit: cover;
+      height: 75rem;
+      background-size: cover; /* Ảnh bao phủ toàn bộ background */
+      background-position: center; /* Ảnh ở vị trí trung tâm */
+    }
+    .my_family{
+      height: 50rem;
+    }
+  }
+  @media (max-width: 769px) {
+    .comic-button{
+      /* margin-top: -50%; */
+     
+    }
+    .hoi_anh_em,.comic-button{
+      /* margin: 0 auto; */
+      margin-top: -6%;
+    }
+  }
+  @media (max-width: 576px) {
+    .comic-button{
+      /* margin-top: -70%; */
+      font-size: 20px;
+    }
+    .my_family{
+      height: 100rem;
+    }
+  }
+  @media (max-width: 512px) {
+    .comic-button{
+      /* margin-top: -80%; */
+    }
+  }
+  @media (max-width: 470px) {
+    .comic-button{
+      /* margin-top: -90%; */
+      font-size: 16px;
+    }
+  }
+  @media (max-width:435px) {
+    .comic-button{
+      /* margin-top: -97%; */
+      font-size: 15px;
+    }
+    .hoi_anh_em,.comic-button{
+      /* margin: 0 auto; */
+      margin-top: -10%;
+    }
+  }
+  @media (max-width:391px) {
+    .comic-button{
+      /* margin-top: -110%; */
+      font-size: 14px;
+    }
+  }
+@media (max-width:385px) {
+  .video > img{
+    object-fit: cover;
+    height: 50rem;
+    background-size: cover; /* Ảnh bao phủ toàn bộ background */
+    background-position: center; /* Ảnh ở vị trí trung tâm */
+  }
+  .nha_que,.hoi_anh_em,.comic-button{
+    margin: 0 auto;
+  }
+  .nha_que{
+    font-size: 20px;
+  }
+  .hoi_anh_em{
+    text-align: center;
+    width: 100%;
+    margin-top: -25%;
+  }
+  .comic-button{
+    margin-top: -40%;
+  }
+}

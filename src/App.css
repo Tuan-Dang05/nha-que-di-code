@@ -1,3 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body,
+html {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 14.5px;
+}
+:root{
+    --white:#fcf2fa;
+    --puple:#912a7eaa;
+    --shadow: 0 5px 10px 5px rgba(0,0,0,.3);
+    --nav-color: linear-gradient(to right, rgba(178,47,147,.6)5%,rgba(35,6,34,.9));
+}
+.button {
+    display: none;
+    align-items: center;
+    appearance: none;
+    background-color: #EEF2FF;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #536DFE;
+    box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px, rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #536DFE;
+    cursor: pointer;
+    /* display: inline-flex; */
+    font-family: "JetBrains Mono", monospace;
+    height: 30px;
+    justify-content: center;
+    line-height: 1;
+    top: 20px;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 12px;
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(83, 109, 254, 0.4) 0 2px 4px, rgba(83, 109, 254, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  .button:hover {
+    box-shadow: rgba(83, 109, 254, 0.3) 0 4px 8px, rgba(83, 109, 254, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .button:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+.checkbtn{
+    line-height: 35px;
+    font-size: 20px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+.checkbtn span{
+    color: black;
+}
+#check{
+    display: none;
+}
+.tooltip.fade {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.tooltip.fade.show {
+    opacity: 1;
+}
+
 
 .link-test::after{
     content: "";
@@ -44,9 +130,9 @@
 .link-test_4::after{
     height: 3px;
     background-color: red;
-    width: 60px;
-    top: 45px;
-    right:31rem;
+    width: 70px;
+    top: 40px;
+    right:42rem;
     position: absolute;
     content: "";
     transform: scaleX(0);
@@ -58,9 +144,9 @@
 .link-test_5::after{
     height: 3px;
     background-color: red;
-    width: 67px;
+    width: 70px;
     top: 45px;
-    right:24.5rem;
+    right:35rem;
     position: absolute;
     content: "";
     transform: scaleX(0);
@@ -72,9 +158,9 @@
 .link-test_6::after{
     height: 3px;
     background-color: red;
-    width: 68px;
+    width: 60px;
     top: 45px;
-    right:18rem;
+    right:29rem;
     position: absolute;
     content: "";
     transform: scaleX(0);
@@ -86,15 +172,29 @@
 .link-test_7::after{
     height: 3px;
     background-color: red;
-    width: 80px;
+    width: 110px;
     top: 45px;
-    right:10.7rem;
+    right:19.2rem;
     position: absolute;
     content: "";
     transform: scaleX(0);
     transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .link-test_7:hover::after{
+    transform: scaleX(1);
+}
+.link-test_8::after{
+    height: 3px;
+    background-color: red;
+    width: 65px;
+    top: 45px;
+    right:12.5rem;
+    position: absolute;
+    content: "";
+    transform: scaleX(0);
+    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.link-test_8:hover::after{
     transform: scaleX(1);
 }
 .dropdown-menu > div > li > button:hover{
@@ -137,6 +237,21 @@
         margin-top: -190px;
     }
 }
+@media (max-width: 1380px) {
+    .nav-link span{
+        font-size: 12px;
+    }
+}
+@media (max-width: 1310px) {
+    .nav-link span{
+        font-size: 11px;
+    }
+}
+@media (max-width: 1290px) {
+    .nav-link span{
+        font-size: 10px;
+    }
+}
 @media (max-width: 1200px) {
     /* Main content responsive */
     .nha_que{
@@ -152,6 +267,7 @@
         font-size: 60px;
     }
 }
+
 @media (max-width: 992px) {
     /* Main content responsive */
     .nha_que > p{
@@ -163,6 +279,39 @@
     .comic-button{
         margin-top: -350px;
     }
+    /* .container{
+        background-color: cyan;
+        float: left;
+        margin-right: 200px;
+    } */
+    .link-test_3:hover::after,.link-test_3::after, 
+    .link-test_1:hover::after,.link-test_1::after, 
+    .link-test_2:hover::after,.link-test_2::after,
+    .link-test_4:hover::after,.link-test_4::after,
+    .link-test_5:hover::after,.link-test_5::after,
+    .link-test_6:hover::after,.link-test_6::after,
+    .link-test_7:hover::after,.link-test_7::after,
+    .link-test_8:hover::after,.link-test_8::after,
+    .link-test:hover::after,.link-test::after
+    {
+        display: none;
+    }
+   .offcanvas{
+    background-color: rgba(0,0,0,.2);
+    width: 200px !important;
+   }
+   .nav{
+    color: white !important;
+    font-size: 16px !important;
+    text-align: center !important;
+
+   }
+   .icon{
+    display: none;
+   }
+   .button{
+    display: block;
+   }
 }
 @media (max-width: 768px) {
     /* Main content responsive */
@@ -207,6 +356,96 @@
         display: none;
     }
     .logo_nhaque{
-        margin-top: 18px;
+        margin-top: 15px;
+    }
 }
+.offcanvas-header{
+    background-color: #7F7F7F;
+    height: 55px;
+}
+@media (max-width: 565px) {
+    .offcanvas-header{
+        height: 50px;
+        /* background-color: red; */
+    }
+}
+@media (max-width: 445px) {
+    .offcanvas{
+        width: 220px !important;
+        margin-right: -20px;
+    }
+    .offcanvas-header{
+        padding-right: 50px;
+    }
+   /* .village{
+    width: 29rem;
+   } */
+}
+@media (max-width:430px) {
+    .offcanvas{
+        width: 220px !important;
+        margin-right: -25px;
+    }
+    .offcanvas-header{
+        padding-right: 50px;
+    }
+   /* .village{
+    width: 28.2rem;
+   } */
+}
+/* Iphone 12promax */
+@media (max-width:391px) {
+    .village{
+        width: 29.2rem;
+        margin-left: -11px;
+    }
+      .nha_que >p{
+        margin-right: -42px;
+        text-align: center;
+        
+      }
+      .hoi_anh_em >p{
+        width: 18rem;
+        margin-right: -50px;
+        text-align: center;
+      }
+      .video > button{
+        margin-left: 25px;
+        font-size: 18px;
+      }
+      .my_family{
+        height: 100rem;
+
+      }
+      .family > p{
+        margin-left: 35px;
+      }
+.cards{
+    padding-right: -15px;
+}
+       .offcanvas{
+       /* background-color: cyan; */
+       /* margin-right: -150px; */
+    }
+}
+.show_toastmess{
+    display: none;
+}
+
+
+/* Iphone SE */
+@media (max-width:376px) {
+    /* .offcanvas{
+        width: 220px !important;
+        margin-right: -20px;
+    }
+    .offcanvas-header{
+        padding-right: 50px;
+    }
+   .village{
+    width: 24.3rem;
+   }
+   .navbar-toggler{
+    margin-right: 40px;
+   } */
 }

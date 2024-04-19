@@ -48,7 +48,7 @@ const Contact = () => {
                         </div>
                         <div className="col-lg-2">
                             <h5 style={{ color: 'cyan' }}>Pages</h5>
-                            <p className="mt-5 text-white">Home</p>
+                            <p className="mt-5 text-white" >Home</p>
                             <p className="text-white">Members</p>
                             <p className="text-white">My family</p>
                             <p className="text-white">Confidence</p>

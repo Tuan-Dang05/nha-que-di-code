@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
             </div>
         <div className=''>
-            <img className='' src='./img/logo.png' alt='logo' width={130} style={{display: 'block', marginLeft: 'auto', marginRight: 'auto',marginTop:'230px'}}/>
+            <img className='pt-5' src='./img/logo.png' alt='logo' width={130} style={{display: 'block', marginLeft: 'auto', marginRight: 'auto',marginTop:'230px'}}/>
             <div style={{textAlign:'center',fontSize: 'clamp(10px,3vw,25px)'}}><i>email: anhtuandang2605@gmail.com</i></div>
         </div>
         </div>
