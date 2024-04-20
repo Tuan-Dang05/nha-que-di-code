@@ -31,7 +31,7 @@ const SlideImg = ({ confidence }, ref) => {
         }}
       >
         <h2 className="heading">
-          <span ref={ref} style={{fontSize:'clamp(55px,3vw,70px)'}}>{confidence}</span>
+          <span ref={ref} style={{fontSize:'clamp(50px,2vw,70px)'}}>{confidence}</span>
         </h2>
         <div className="testimonial-wrapper">
           <div className="testimonial-box mySwiper" ref={swiperRef}>

@@ -3,8 +3,8 @@
 body,
 html {
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 14.5px;
 }
 :root{
@@ -84,119 +84,11 @@ html {
     opacity: 1;
 }
 
+.nav-item:hover .nav{
+    cursor: pointer;
+    color: red;
+}
 
-.link-test::after{
-    content: "";
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    background-color: #f00;
-    bottom: 0;
-    left: 0;
-    transform: scaleX(0);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.link-test:hover::after{
-    transform: scaleX(1);
-}
-.link-test_2::after{
-    height: 3px;
-    background-color: red;
-    width: 50px;
-    top: 45px;
-    left:10px;
-    position: absolute;
-    content: "";
-    transform: scaleX(0);
-    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.link-test_2:hover::after{
-    transform: scaleX(1);
-}
-.link-test_3::after{
-    height: 3px;
-    background-color: red;
-    width: 60px;
-    top: 45px;
-    right:85px;
-    position: absolute;
-    content: "";
-    transform: scaleX(0);
-    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.link-test_3:hover::after{
-    transform: scaleX(1);
-}
-.link-test_4::after{
-    height: 3px;
-    background-color: red;
-    width: 70px;
-    top: 40px;
-    right:42rem;
-    position: absolute;
-    content: "";
-    transform: scaleX(0);
-    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.link-test_4:hover::after{
-    transform: scaleX(1);
-}
-.link-test_5::after{
-    height: 3px;
-    background-color: red;
-    width: 70px;
-    top: 45px;
-    right:35rem;
-    position: absolute;
-    content: "";
-    transform: scaleX(0);
-    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.link-test_5:hover::after{
-    transform: scaleX(1);
-}
-.link-test_6::after{
-    height: 3px;
-    background-color: red;
-    width: 60px;
-    top: 45px;
-    right:29rem;
-    position: absolute;
-    content: "";
-    transform: scaleX(0);
-    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.link-test_6:hover::after{
-    transform: scaleX(1);
-}
-.link-test_7::after{
-    height: 3px;
-    background-color: red;
-    width: 110px;
-    top: 45px;
-    right:19.2rem;
-    position: absolute;
-    content: "";
-    transform: scaleX(0);
-    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.link-test_7:hover::after{
-    transform: scaleX(1);
-}
-.link-test_8::after{
-    height: 3px;
-    background-color: red;
-    width: 65px;
-    top: 45px;
-    right:12.5rem;
-    position: absolute;
-    content: "";
-    transform: scaleX(0);
-    transition: all 0.4s  cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.link-test_8:hover::after{
-    transform: scaleX(1);
-}
 .dropdown-menu > div > li > button:hover{
     background-color: rgb(34, 240, 237);
     border-radius: 50px;
@@ -210,19 +102,8 @@ html {
     animation: showLocate 0.4s ease-in-out;
 
 }
-@keyframes showLocate {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        transform: translateY(0px); 
-        opacity: 1;
-    }   
-}  
-.dropdown-menu > li > button:active{
-    background-color: rgb(90, 174, 174);
-}
+
+
 
 /* RESPONSIVE ALL APP */
 @media (max-width: 1400px) {
@@ -393,24 +274,44 @@ html {
     width: 28.2rem;
    } */
 }
-/* Iphone 12promax */
+/* Iphone 12 pro max */
+@media (max-width:421px) {
+    .village{
+        width: 30.2rem;
+        margin-left: -11px;
+    }
+    .nha_que >p{
+        margin-left: 10px;
+    }
+    .hoi_anh_em > p{
+        width: 18rem;
+        margin-left: 20px;
+    }
+    .video .comic-button{
+        margin-left: 10px;
+    }
+    .family{
+        margin-left: 10px;
+    }
+}
+/* Iphone 12pro */
 @media (max-width:391px) {
     .village{
         width: 29.2rem;
         margin-left: -11px;
     }
       .nha_que >p{
-        margin-right: -42px;
+        margin-right: -45px;
         text-align: center;
         
       }
       .hoi_anh_em >p{
         width: 18rem;
-        margin-right: -50px;
+        margin-right: -40px;
         text-align: center;
       }
-      .video > button{
-        margin-left: 25px;
+      .video > .comic-button{
+        margin-left: 30px;
         font-size: 18px;
       }
       .my_family{
@@ -418,7 +319,11 @@ html {
 
       }
       .family > p{
-        margin-left: 35px;
+        margin-left: 25px;
+      }
+      .heading{
+        
+        width: 15rem;
       }
 .cards{
     padding-right: -15px;
@@ -431,8 +336,50 @@ html {
 .show_toastmess{
     display: none;
 }
-
-
+@media (max-width:385px) {
+    .village{
+        width: 30.2rem;
+        margin-left: -11px;
+    }
+    .nha_que >p{
+        margin-left: 10px;
+    }
+    .hoi_anh_em > p{
+        width: 18rem;
+        margin-left: 6rem;
+    }
+    .video .comic-button{
+        margin-left: 25px;
+    }
+    .family{
+        margin-left: 10px;
+    }
+}
+/* Galaxy note 2 */
+@media (max-width:361px) {
+    .nha_que >p{
+        margin-left: 20px;
+    }
+    .hoi_anh_em > p{
+        width: 18rem;
+        margin-left: 5.5rem;
+    }
+    .video .comic-button{
+        margin-left: 35px;
+    }
+    .family{
+        margin-left: 10px;
+    }
+    #galaxy_note_2{
+        margin-left: 2.1rem;
+    }
+    .footerweb{
+        width: 28.7rem;
+    }
+    .sinh_vien{
+        width: 18rem;
+    }
+}
 /* Iphone SE */
 @media (max-width:376px) {
     /* .offcanvas{
