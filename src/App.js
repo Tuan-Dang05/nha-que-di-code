@@ -117,12 +117,12 @@ function App() {
       {/* <Router> */}
       <div className='col-12 position-fixed' style={{ marginLeft: '-12px', marginTop: '0px', background: 'rgba(255,255,255)', zIndex: '10' }}>
         <div className='row border-info border-bottom border-2'>
-          <div className='col-5 ps-3'>
+          <div className='col-4 ps-3'>
             <img src="./img/logo.png" className='ms-1 logo' width={55} alt="logo" />
             <a href><img src='./img/name.png' width={170} className='ms-3 logo_nhaque' alt='nha_que_di_code' /></a>
           </div>
 
-          <div className='col-7'>
+          <div className='col-8'>
             <nav className="navbar navbar-expand-lg float-end pe-2">
 
               <div className="container">
@@ -157,32 +157,32 @@ function App() {
                         </ul>
                       </li>
                       <li className="nav-item me-4">
-                        <a className="nav-link link-test_4 fs-6" onClick={family} style={{zIndex:'10'}}>
+                        <a className="nav-link link-test_4 fs-6" onClick={family} style={{ zIndex: '10' }}>
                           <span className='nav'>Thành Viên</span>
                         </a>
                       </li>
                       <li className="nav-item me-4">
-                        <a className="nav-link link-test_5 fs-6" onClick={confidence} style={{zIndex:'10'}}>
+                        <a className="nav-link link-test_5 fs-6" onClick={confidence} style={{ zIndex: '10' }}>
                           <span className='nav'>Lời tâm sự</span>
                         </a>
                       </li>
                       <li className="nav-item me-4">
-                        <a className="nav-link link-test_6 fs-6 " onClick={service} style={{zIndex:'10'}}>
+                        <a className="nav-link link-test_6 fs-6 " onClick={service} style={{ zIndex: '10' }}>
                           <span className='nav'>Công cụ</span>
                         </a>
                       </li>
                       <li className="nav-item me-4">
-                        <a className="nav-link link-test_7 fs-6" onClick={construc} style={{zIndex:'10'}}>
+                        <a className="nav-link link-test_7 fs-6" onClick={construc} style={{ zIndex: '10' }}>
                           <span className='nav'>Đội ngũ xây dựng</span>
                         </a>
                       </li>
                       <li className="nav-item me-4">
-                        <a className="nav-link link-test_8 fs-6" onClick={product} style={{zIndex:'10'}}>
+                        <a className="nav-link link-test_8 fs-6" onClick={product} style={{ zIndex: '10' }}>
                           <span className='nav'>Sản phẩm</span>
                         </a>
                       </li>
                       <li className="nav-item me-4">
-                        <a className="nav-link link-test_3 fs-6" onClick={leader} style={{zIndex:'10'}}>
+                        <a className="nav-link link-test_3 fs-6" onClick={leader} style={{ zIndex: '10' }}>
                           <span className='nav'>Lãnh đạo</span>
                         </a>
                       </li>
@@ -192,7 +192,10 @@ function App() {
                         <a href='https://login-form-rouge-rho.vercel.app/'
                           data-toggle="tooltip"
                           data-placement="bottom"
-                          title="Đăng nhập" data-animation="true" ><i className="fas fa-sign-in-alt mt-2"  ></i></a>
+                          title="Đăng nhập" data-animation="true" >
+                            {/* <i className="fas fa-sign-in-alt mt-2"  ></i> */}
+                            <img src='./img/gif/import.gif' width={30} alt='login'/>
+                          </a>
                       </li>
                       <li>
                         <button type='button' class="button" role="button"><a href='https://login-form-rouge-rho.vercel.app/' style={{ textDecoration: 'none' }}>Đăng nhập</a></button>
@@ -254,7 +257,7 @@ function App() {
       <div className='col-12' id='galaxy_note_2'>
         <Leader ref={leaderRef} leader="" />
       </div>
-      <div className='col-12' id='galaxy_note_2'> 
+      <div className='col-12' id='galaxy_note_2'>
         <Footer />
       </div>
       <div className='col-12' >

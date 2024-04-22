@@ -99,11 +99,20 @@ html {
     margin-left:20%;
 } 
 .dropdown-menu{
-    animation: showLocate 0.4s ease-in-out;
-
+    animation: showLocate .7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 
+@keyframes showLocate {
+    from{
+        top:0;
+        opacity: 0;
+    }
+    to{
+        top:100;
+        opacity: 1;
+    }
+}
 
 /* RESPONSIVE ALL APP */
 @media (max-width: 1400px) {
@@ -119,18 +128,19 @@ html {
     }
 }
 @media (max-width: 1380px) {
-    .nav-link span{
+    /* .nav-link span{
         font-size: 12px;
-    }
+    } */
 }
 @media (max-width: 1310px) {
     .nav-link span{
-        font-size: 11px;
+        font-size: 13px;
+        margin-top: 3px;
     }
 }
 @media (max-width: 1290px) {
     .nav-link span{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 @media (max-width: 1200px) {
@@ -165,18 +175,6 @@ html {
         float: left;
         margin-right: 200px;
     } */
-    .link-test_3:hover::after,.link-test_3::after, 
-    .link-test_1:hover::after,.link-test_1::after, 
-    .link-test_2:hover::after,.link-test_2::after,
-    .link-test_4:hover::after,.link-test_4::after,
-    .link-test_5:hover::after,.link-test_5::after,
-    .link-test_6:hover::after,.link-test_6::after,
-    .link-test_7:hover::after,.link-test_7::after,
-    .link-test_8:hover::after,.link-test_8::after,
-    .link-test:hover::after,.link-test::after
-    {
-        display: none;
-    }
    .offcanvas{
     background-color: rgba(0,0,0,.2);
     width: 200px !important;
@@ -193,6 +191,15 @@ html {
    .button{
     display: block;
    }
+}
+@media (max-width: 785px) {
+    .logo{
+        display: none;
+    }
+    .logo_nhaque{
+
+        margin-top: 12px;
+    }
 }
 @media (max-width: 768px) {
     /* Main content responsive */

@@ -24,7 +24,8 @@ const Service = ({ service }, ref) => {
       <div className="col-lg-4 mb-2" data-aos="fade-up" data-aos-duration={500}>
         <div className="kartu">
           <div className="kartu-icon">
-            <i className="fa-regular fa-pen-to-square icon-dalam" />
+            {/* <i className="fa-regular fa-pen-to-square icon-dalam" /> */}
+            <img src='./img/gif/content.gif' width={65} alt='content' style={{borderRadius:'50%',backgroundSize:'cover',objectFit:'cover'}}/>
           </div>
           <p className="kartu-judul">Nội dung</p>
           <p className="kartu-des">
@@ -35,7 +36,7 @@ const Service = ({ service }, ref) => {
       <div className="col-lg-4 mb-2" data-aos="fade-up" data-aos-duration={1000}>
         <div className="kartu">
           <div className="kartu-icon">
-            <i className="fa-solid fa-pen-nib icon-dalam" />
+          <img src='./img/gif/logo-design.gif' width={65} alt='content' style={{borderRadius:'50%',backgroundSize:'cover',objectFit:'cover'}}/>
           </div>
           <p className="kartu-judul">Thiết kế đồ hoạ</p>
           <p className="kartu-des">
@@ -46,12 +47,12 @@ const Service = ({ service }, ref) => {
       <div className="col-lg-4 mb-2" data-aos="fade-up" data-aos-duration={1500}>
         <div className="kartu">
           <div className="kartu-icon">
-            <i className="fa-solid fab fa-bootstrap icon-dalam" />
+          <img src='./img/gif/bootstrap.png' width={60} alt='content' style={{borderRadius:'50%',backgroundSize:'cover',objectFit:'cover'}}/>
           </div>
           <p className="kartu-judul">Boostrap 5</p>
           <p className="kartu-des">
           Bootstrap 5: Nâng tầm thiết kế web của bạn với các thành phần và giao diện hiện đại.<br/>
-          #Bootstrap5 #CSS #WebDesign #Responsive #Frontend #Development
+           #CSS #WebDesign #Responsive #Frontend
           </p>
         </div>
       </div>
@@ -60,7 +61,7 @@ const Service = ({ service }, ref) => {
       <div className="col-lg-4 mb-2" data-aos="fade-up" data-aos-duration={500}>
         <div className="kartu">
           <div className="kartu-icon">
-            <i className="fa-solid fa-palette icon-dalam" />
+          <img src='./img/gif/layout.gif' width={65} alt='content' style={{borderRadius:'50%',backgroundSize:'cover',objectFit:'cover'}}/>
           </div>
           <p className="kartu-judul">Thiết kế website</p>
           <p className="kartu-des">
@@ -73,7 +74,7 @@ const Service = ({ service }, ref) => {
       <div className="col-lg-4 mb-2" data-aos="fade-up" data-aos-duration={1000}>
         <div className="kartu">
           <div className="kartu-icon">
-            <i className="fa-solid fa-users-line icon-dalam" />
+          <img src='./img/gif/management-consulting.gif' width={65} alt='content' style={{borderRadius:'50%',backgroundSize:'cover',objectFit:'cover'}}/>
           </div>
           <p className="kartu-judul">Đội ngũ IT</p>
           <p className="kartu-des">
@@ -84,7 +85,7 @@ const Service = ({ service }, ref) => {
       <div className="col-lg-4 mb-2" data-aos="fade-up" data-aos-duration={1500}>
         <div className="kartu">
           <div className="kartu-icon">
-            <i className=" fas fa-poo icon-dalam" />
+          <img src='./img/gif/fishbowl.gif' width={65} alt='content' style={{borderRadius:'50%',backgroundSize:'cover',objectFit:'cover'}}/>
           </div>
           <p className="kartu-judul">AOS animation</p>
           <p className="kartu-des">
