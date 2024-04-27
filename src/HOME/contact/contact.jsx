@@ -45,6 +45,10 @@ const Contact = () => {
                                 We’re a team of strategic creator and digital innovator, united
                                 focus in our pursuit of mastery and joyful.
                             </p>
+                            <div className="map_container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.0418074056156!2d105.5153171747133!3d20.99096118907674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345b9969c77693%3A0xc5d4515efce8ffba!2zxJDhuqFpIEjhu41jIFF14buRYyBHaWEgSMOgIE7hu5lpIC0gQ8ahIHPhu58gSMOyYSBM4bqhYw!5e0!3m2!1svi!2s!4v1714210240477!5m2!1svi!2s" width={350} height={250} style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+
+                            </div>
                         </div>
                         <div className="col-lg-2">
                             <h5 style={{ color: 'cyan' }}>Pages</h5>
