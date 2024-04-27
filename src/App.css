@@ -101,8 +101,32 @@ html {
 .dropdown-menu{
     animation: showLocate .7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-
-
+@-webkit-keyframes my {
+    0% { color: #090909; } 
+    50% { color: cyan;  } 
+    100% { color: #090909;  } 
+}
+@-moz-keyframes my { 
+    0% { color: #090909;  } 
+    50% { color: cyan;  }
+    100% { color: #090909;  } 
+}
+@-o-keyframes my { 
+    0% { color: #090909; } 
+    50% { color: cyan; } 
+    100% { color: #090909;  } 
+}
+@keyframes my { 
+    0% { color: #090909;  } 
+    50% { color: cyan;  }
+    100% { color: #090909;  } 
+} 
+.chu_nhap_nhay{
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
+}
 @keyframes showLocate {
     from{
         top:0;

@@ -122,7 +122,7 @@ const Product = ({ showToast, product }, ref) => {
                             <div className="tags">
                                 <span className="tag">#Game</span>
                                 <span className="tag">#JavaScript</span>
-                                <span className="tag">#Memory Game</span>
+                                <span className="tag">#Memory</span>
                             </div>
                             <p className="desc">
                                 Memory game: trò chơi giúp bạn có trí nhớ siêu phàm!

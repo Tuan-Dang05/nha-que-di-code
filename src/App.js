@@ -62,6 +62,15 @@ function App() {
   const ducduy = () => {
     window.open("https://dduy07037.github.io/DuyPortfolio/", "_blank");
   };
+
+  const xuandat = () =>{
+    window.open("https://ledat2k.github.io/LiDas/#home", "_blank");
+  }
+
+  const chuNhapNhay = () => {
+    window.open("https://login-form-rouge-rho.vercel.app/")
+  }
+
   useEffect(() => {
     // Kích hoạt tooltip khi component được tải
     const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'));
@@ -113,6 +122,7 @@ function App() {
   return (
 
     <div className="container-fluid App">
+      <div className=" position-fixed end-0 bottom-0 fs-6 chu_nhap_nhay" onClick={chuNhapNhay} style={{zIndex:'9999',padding:'5px 10px', borderRadius:'5px',marginRight:'20px',marginBottom:'20px',border:'1px solid black',cursor:'pointer', backgroundColor:'rgba(0,0,0,0.1)'}}>Đăng kí ngay !</div>
       {/* <BrowserRouter> */}
       {/* <Router> */}
       <div className='col-12 position-fixed' style={{ marginLeft: '-12px', marginTop: '0px', background: 'rgba(255,255,255)', zIndex: '10' }}>
@@ -152,37 +162,37 @@ function App() {
                             <li><button className="nav-link fs-5" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" onClick={anhtuan}>Anh Tuấn</button></li>
                             <li><button className="nav-link fs-5" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" onClick={ducduy} >Đức Duy</button></li>
                             <li><button className="nav-link fs-5" id="v-pills-duc-tab" data-bs-toggle="pill" data-bs-target="#v-pills-duc" type="button" role="tab" aria-controls="v-pills-duc" aria-selected="false" onClick={() => this.quangduc()}>Quang Đức</button></li>
-                            <li><button className="nav-link fs-5" id="v-pills-dat-tab" data-bs-toggle="pill" data-bs-target="#v-pills-dat" type="button" role="tab" aria-controls="v-pills-dat" aria-selected="false" onClick={() => this.xuandat()}>Xuân Đạt</button></li>
+                            <li><button className="nav-link fs-5" id="v-pills-dat-tab" data-bs-toggle="pill" data-bs-target="#v-pills-dat" type="button" role="tab" aria-controls="v-pills-dat" aria-selected="false" onClick={xuandat}>Xuân Đạt</button></li>
                           </div>
                         </ul>
                       </li>
                       <li className="nav-item me-4">
-                        <a className="nav-link link-test_4 fs-6" onClick={family} style={{ zIndex: '10' }}>
+                        <a className="nav-link link-test_4 fs-6" onClick={family} style={{ zIndex: '10' }} href>
                           <span className='nav'>Thành Viên</span>
                         </a>
                       </li>
                       <li className="nav-item me-4">
-                        <a className="nav-link link-test_5 fs-6" onClick={confidence} style={{ zIndex: '10' }}>
+                        <a className="nav-link link-test_5 fs-6" onClick={confidence} style={{ zIndex: '10' }} href>
                           <span className='nav'>Lời tâm sự</span>
                         </a>
                       </li>
                       <li className="nav-item me-4">
-                        <a className="nav-link link-test_6 fs-6 " onClick={service} style={{ zIndex: '10' }}>
+                        <a className="nav-link link-test_6 fs-6 " onClick={service} style={{ zIndex: '10' }} href>
                           <span className='nav'>Công cụ</span>
                         </a>
                       </li>
                       <li className="nav-item me-4">
-                        <a className="nav-link link-test_7 fs-6" onClick={construc} style={{ zIndex: '10' }}>
+                        <a className="nav-link link-test_7 fs-6" onClick={construc} style={{ zIndex: '10' }} href>
                           <span className='nav'>Đội ngũ xây dựng</span>
                         </a>
                       </li>
                       <li className="nav-item me-4">
-                        <a className="nav-link link-test_8 fs-6" onClick={product} style={{ zIndex: '10' }}>
+                        <a className="nav-link link-test_8 fs-6" onClick={product} style={{ zIndex: '10' }} href>
                           <span className='nav'>Sản phẩm</span>
                         </a>
                       </li>
                       <li className="nav-item me-4">
-                        <a className="nav-link link-test_3 fs-6" onClick={leader} style={{ zIndex: '10' }}>
+                        <a className="nav-link link-test_3 fs-6" onClick={leader} style={{ zIndex: '10' }} href>
                           <span className='nav'>Lãnh đạo</span>
                         </a>
                       </li>
