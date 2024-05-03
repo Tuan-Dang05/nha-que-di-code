@@ -13,6 +13,8 @@ html {
     --shadow: 0 5px 10px 5px rgba(0,0,0,.3);
     --nav-color: linear-gradient(to right, rgba(178,47,147,.6)5%,rgba(35,6,34,.9));
 }
+
+
 .button {
     display: none;
     align-items: center;
@@ -102,30 +104,32 @@ html {
     animation: showLocate .7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 @-webkit-keyframes my {
-    0% { color: #090909; } 
-    50% { color: cyan;  } 
-    100% { color: #090909;  } 
+    0% { color: white; } 
+    50% { color: black;  } 
+    100% { color: white;  } 
 }
 @-moz-keyframes my { 
-    0% { color: #090909;  } 
-    50% { color: cyan;  }
-    100% { color: #090909;  } 
+    0% { color: white;  } 
+    50% { color: black;  }
+    100% { color: white;  } 
 }
 @-o-keyframes my { 
-    0% { color: #090909; } 
-    50% { color: cyan; } 
-    100% { color: #090909;  } 
+    0% { color: white; } 
+    50% { color: black; } 
+    100% { color: white;  } 
 }
 @keyframes my { 
-    0% { color: #090909;  } 
-    50% { color: cyan;  }
-    100% { color: #090909;  } 
+    0% { color: white;  } 
+    50% { color: black;  }
+    100% { color: white;  } 
 } 
 .chu_nhap_nhay{
-    -webkit-animation: my 700ms infinite;
-    -moz-animation: my 700ms infinite; 
-    -o-animation: my 700ms infinite; 
-    animation: my 700ms infinite;
+    -webkit-animation: my 500ms infinite;
+    -moz-animation: my 500ms infinite; 
+    -o-animation: my 500ms infinite; 
+    animation: my 500ms infinite;
+    background: linear-gradient(45deg, #0ce39a, #69007f, #fc0987);
+    opacity: 0.8;
 }
 @keyframes showLocate {
     from{

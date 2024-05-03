@@ -63,7 +63,7 @@ function App() {
     window.open("https://dduy07037.github.io/DuyPortfolio/", "_blank");
   };
 
-  const xuandat = () =>{
+  const xuandat = () => {
     window.open("https://ledat2k.github.io/LiDas/#home", "_blank");
   }
 
@@ -122,7 +122,16 @@ function App() {
   return (
 
     <div className="container-fluid App">
-      <div className=" position-fixed end-0 bottom-0 fs-6 chu_nhap_nhay" onClick={chuNhapNhay} style={{zIndex:'9999',padding:'5px 10px', borderRadius:'5px',marginRight:'20px',marginBottom:'20px',border:'1px solid black',cursor:'pointer', backgroundColor:'rgba(0,0,0,0.1)'}}>Đăng kí ngay !</div>
+      <div className=" position-fixed end-0 bottom-0 fs-6 chu_nhap_nhay" 
+      onClick={chuNhapNhay} 
+      style={{ zIndex: '9999', 
+      padding: '5px 10px', 
+      borderRadius: '5px', 
+      marginRight: '20px', 
+      marginBottom: '20px', 
+      border: '1px solid red', 
+      cursor: 'pointer', 
+    }}>Đăng kí ngay !</div>
       {/* <BrowserRouter> */}
       {/* <Router> */}
       <div className='col-12 position-fixed' style={{ marginLeft: '-12px', marginTop: '0px', background: 'rgba(255,255,255)', zIndex: '10' }}>
@@ -173,7 +182,7 @@ function App() {
                       </li>
                       <li className="nav-item me-4">
                         <a className="nav-link link-test_5 fs-6" onClick={confidence} style={{ zIndex: '10' }} href>
-                          <span className='nav'>Lời tâm sự</span>
+                          <span className='nav'>Slogan</span>
                         </a>
                       </li>
                       <li className="nav-item me-4">
@@ -203,12 +212,12 @@ function App() {
                           data-toggle="tooltip"
                           data-placement="bottom"
                           title="Đăng nhập" data-animation="true" >
-                            {/* <i className="fas fa-sign-in-alt mt-2"  ></i> */}
-                            <img src='./img/gif/import.gif' width={30} alt='login'/>
-                          </a>
+                          {/* <i className="fas fa-sign-in-alt mt-2"  ></i> */}
+                          <img src='./img/gif/import.gif' width={30} alt='login' />
+                        </a>
                       </li>
                       <li>
-                        <button type='button' class="button" role="button"><a href='https://login-form-rouge-rho.vercel.app/' style={{ textDecoration: 'none' }}>Đăng nhập</a></button>
+                        <button type='button' class="button"><a href='https://login-form-rouge-rho.vercel.app/' style={{ textDecoration: 'none' }}>Đăng nhập</a></button>
                       </li>
                     </ul>
 
@@ -253,7 +262,7 @@ function App() {
         <Card ref={familyRef} text="Gia Đình Của Chúng Tớ" />
       </div>
       <div className='col-12' id='galaxy_note_2'>
-        <SlideImg ref={confidenceRef} confidence="Những lời tâm sự" />
+        <SlideImg ref={confidenceRef} confidence="Slogan" />
       </div>
       <div className='col-12' id='galaxy_note_2'>
         <Service ref={serviceRef} service="Công cụ chúng tớ sử dụng" />

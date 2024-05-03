@@ -67,7 +67,7 @@ const Contact = () => {
 
                         </div>
                         <div className="col-lg-4">
-                            <h5 style={{ color: 'cyan' }}>Subscribe</h5>
+                            <h5 style={{ color: 'cyan' }}>Lời nhắn</h5>
                             <div className='text-center' id='check_err' style={{ color: 'red', margin: '-1rem 0px' }}></div>
                             <div className='text-center' id='check_err2' style={{ color: 'green', margin: '-1rem 0px' }}></div>
                             <form ref={form} onSubmit={sendEmail}>
@@ -77,7 +77,7 @@ const Contact = () => {
                                         <input type="text" id='check_value' name='message' placeholder="Lời nhắn nhủ tới chúng tớ" />
                                     </div>
                                     <div className="kanan-search text-white" style={{ cursor: 'pointer' }}>
-                                        <button type='submit' onClick={sendEmail}>Subscribe</button>
+                                        <button type='submit' onClick={sendEmail}>Gửi lời nhắn</button>
                                     </div>
                                 </div>
                             </form>
